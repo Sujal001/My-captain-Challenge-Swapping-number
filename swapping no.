@@ -1,0 +1,17 @@
+//  BY addition and subtraction of two no.
+#include<stdio.h> //libraries
+#include<stdlib.h>
+int main()
+{
+int a,b;
+printf(" Before swap a and b:");
+scanf("%d ", &a);
+scanf("%d", &b);                    
+//These are the operations which help cswapping the no.
+// Let a = 20 b = 30
+a= a+b; //50(20+30)
+b= a-b; //20(50-30)
+a= a-b; //30(50-20) 
+printf("After swap a=%d b=%d",a,b);
+return 0;
+}
